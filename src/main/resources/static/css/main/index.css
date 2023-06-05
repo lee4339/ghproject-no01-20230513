@@ -71,9 +71,21 @@ main {
 }
 
 .info-box {
+    width: 280px;
     color: white;
 }
 
 .simple-reservation {
-    width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.reservation-box {
+    width: 800px;
+    height: 480px;
+    /* margin: 0px auto; */
+    background-color: yellow;
 }
