@@ -89,3 +89,18 @@ main {
     /* margin: 0px auto; */
     background-color: yellow;
 }
+
+.res-top {
+    height: 240px;
+    background-color: red;
+}
+
+.res-mid {
+    height: 120px;
+    background-color: coral;
+}
+
+.res-bottom {
+    height: 120px;
+    background-color: blue;
+}
