@@ -33,14 +33,64 @@
             <section class="simple-reservation">
                 <div class="reservation-box">
                     <div class="res-top">
-                        <div>
-                            <button>왕복</button>
-                            <button>편도</button>
+                        <div class="select-res">
+                            <button class="round-btn">왕복</button>
+                            <button class="one-btn">편도</button>
                         </div>
-                        <div>이걸 어째 나누지 ㅅㅂ</div>
+                        <div class="country-select">
+                            <select name=start-country" class="start-country">
+                                <option value="none">======출발지======</option>
+                                <option value="한국">한국</option>
+                                <option value="japan">일본</option>
+                                <option value="중국">중국</option>
+                                <option value="대만">대만</option>
+                                <option value="유럽">유럽</option>
+                                <option value="미국">미국</option>
+                            </select>
+                            <div class="startend-img">
+                                <img src="/static/images/arrow.png">
+                            </div>
+                            <select name="end-country" class="end-country">
+                                <option value="none">======도착지======</option>
+                                <option value="한국">한국</option>
+                                <option value="japan">일본</option>
+                                <option value="중국">중국</option>
+                                <option value="대만">대만</option>
+                                <option value="유럽">유럽</option>
+                                <option value="미국">미국</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="res-mid"></div>
-                    <div class="res-bottom"></div>
+                    <div class="res-mid">
+                        <div class="calendar-img">
+                            <img src="/static/images/calendar.png">
+                        </div>
+                        <div class="day-data">
+                            <input type="date">
+                            <div class="wave-img">
+                                <img src="/static/images/wave.png">
+                            </div>
+                            <input type="date">
+                        </div>
+                    </div>
+                    <div class="res-bottom">
+                        <h1>탑승객</h1>
+                        <div class="res-bottom-box">
+                            <div class="people-box">
+                                <div class="people-check">
+                                    <button type="button" class="plus-btn">-</button>
+                                    <div style="display: flex;">
+                                        <div class="people">1</div>
+                                        <p>명</p>
+                                    </div>
+                                    <button type="button" class="minus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="people-img">
+                                <img src="/static/images/people.png">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </main>

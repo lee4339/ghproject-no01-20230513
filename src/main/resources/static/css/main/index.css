@@ -15,6 +15,7 @@ body {
     background-size: cover;
 }
 
+/* 헤더 */
 header {
     width: 100%;
     height: 80px;
@@ -44,6 +45,10 @@ header nav {
     justify-content: space-around;
 }
 
+/* header nav a:hover {
+    color: black;
+} */
+
 nav a {
     font-size: 16px;
     color: white;
@@ -55,6 +60,7 @@ nav a {
     text-decoration-color: orange;
 }
 
+/* 메인 */
 main {
     width: 100%;
     display: flex;
@@ -86,21 +92,155 @@ main {
 .reservation-box {
     width: 800px;
     height: 480px;
-    /* margin: 0px auto; */
-    background-color: yellow;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .res-top {
     height: 240px;
-    background-color: red;
+}
+
+.select-res {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select-res button {
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.round-btn {
+    border-bottom: 1px ;
+    text-decoration: underline;
+}
+
+.round-btn:hover {
+    color: coral;
+}
+
+.one-btn:hover {
+    color: coral;
+}
+
+.country-select {
+    width: 100%;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px dotted rgba(0, 0, 0, 0.4);
+}
+
+.start-country {
+    margin-left: 20px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.start-country option {
+    text-align: center;
+}
+
+.startend-img img {
+    width: 35px; 
+    height: 35px;
+}
+
+
+.end-country {
+    margin-right: 10px;
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.end-country option {
+    text-align: center;
 }
 
 .res-mid {
+    display: flex;
+    align-items: center;
     height: 120px;
-    background-color: coral;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 2px dotted rgba(0, 0, 0, 0.4);
+}
+
+.calendar-img img {
+    width: 80px; 
+    height: 80px;
+}
+
+.day-data {
+    width: 100%;
+    margin: 0px 90px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day-data input {
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid rgb(134, 131, 131);
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+}
+
+.wave-img img {
+    width: 30px;
+    height: 30px;
 }
 
 .res-bottom {
     height: 120px;
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0);
+    border-top: 2px dotted rgba(0, 0, 0, 0.4);
+}
+
+.res-bottom h1 {
+    padding: 20px 0px 0px 20px;
+}
+
+.res-bottom-box {
+    display: flex;
+}
+
+.people-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.people-check {
+    margin-left: 80px;
+    display: flex;
+}
+
+.people-check button {
+    margin: 0px 10px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgb(134, 131, 131);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.people-img img {
+    width: 30px; height: 30px;
+    margin-right: 40px;
 }
