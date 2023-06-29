@@ -15,17 +15,32 @@
         <main>
             <div class="login-container">
                 <div class="oauth2-login">
-                    <button>네이버이미지</button>
-                    <button>카카오이미지</button>
+                    <a href="/">
+                        <img src="/static/images/naverbtn.png" style="width: 150px; height: 40px;">
+                    </a>
+                    <a href="/">
+                        <img src="/static/images/kakaobtn.png" style="width: 150px; height: 40px;">
+                    </a>
                 </div>
-                <div class="login-box">
-                    <div>
-                        <input type="text">
-                        <input type="password">
+                
+                <form class="login-box" action="/" method="post">
+                    <div class="login-inputs">
+                        <div class="id-box">
+                            <input class="id-input" type="text" placeholder="아이디">
+                            <div class="error-msg"></div>
+                        </div>
+                        <div class="pw-box">
+                            <input class="pw-input" type="password" placeholder="비밀번호">
+                            <div class="error-msg"></div>
+                        </div>
                     </div>
-                    <button type="button">로그인</button>
+                    <button class="login-btn" type="submit">로그인</button>
+                </form>
+                
+                <div class="login-etc">
+                    <a href="/">회원가입</a>
+                    <a href="/">계정찾기</a>
                 </div>
-                <div class="login-etc"></div>
             </div>
         </main>
     </div>
