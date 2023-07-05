@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: red;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.find-container {
+    width: 600px;
+    height: 300px;
+
+    border-radius: 10px;
+    background-color: #B3E0FF
+}
+
+.find-box {
+    margin: 80px 50px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-inputs input {
+    width: 250px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+}
+
+.find-btn {
+    width: 85px;
+    height: 85px;
+    border-radius: 5px;
+    border: none;
+}
+.error-msg {
+    height: 20px;
+    color: red;
+}
+
+.pw-find {
+    display: flex;
+    justify-content: center;
+}
+
+.pw-find a {
+    margin: 30px 30px;
+}
+
+.pw-find a:hover {
+    color: darkorange;
+}
+
+.id-msg {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
