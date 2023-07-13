@@ -25,3 +25,91 @@ main {
     border-radius: 10px;
     background-color: #B3E0FF
 }
+
+.signup-title {
+    width: 100%;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.signup-inputs {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-inputs input {
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.error-msg {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    color: red;
+}
+
+.input-id {
+    margin-left: 100px;
+}
+
+.input-id button {
+    width: 80px;
+    height: 30px;
+
+    margin-left: 20px;
+}
+
+.id-box {
+    display: flex;
+    justify-content: center;
+}
+
+.input-pw {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-pw input:first-child {
+    margin-bottom: 30px;
+}
+
+.input-sex {
+}
+
+.sex-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sex-box label {
+    display: flex;
+    height: 20px;
+}
+
+.sex-box input {
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.signup-buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.signup-buttons button {
+    width: 140px;
+    height: 30px;
+}
+
+.ok-btn {
+    margin-right: 20px;
+}
